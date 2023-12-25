@@ -348,13 +348,4 @@ button{
     width: 40px;
 }
 
-@media only screen and (max-width: 800px) {
-    .nav__links,
-    .cta {
-      display: none;
-    }
-    .menu {
-      display: initial;
-    }
-}
-
+/* hello world */
