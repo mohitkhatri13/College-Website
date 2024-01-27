@@ -208,13 +208,15 @@ button{
 
 .mainpage {
     overflow-x: hidden;
+    /* overflow-y: hidden; */
     background-color: #527bf7;
     width: 100vw;
-    height: 130vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
+    /* position: relative; */
+    /* position: fixed; */
 }
 
 .midpage {
@@ -230,32 +232,40 @@ button{
     color: white;
     font-weight: 400px;
     font-style: italic;
-    /* position: relative; */
+    align-items: center;
+
+    position: sticky;
 }
 
 .college_line {
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    position: absolute;
+    top: 5em;
 }
 
 .three_boxes {
+    margin-top: -10em;
     width: 70vw;
     height: 40vw;
     display: flex;
     color: white;
     gap: 4em;
     left: 23em;
-    position: absolute;
-    top: 30em;
+    /* position: absolute; */
+    top: 35em;
+    /* border: 1px solid red; */
 }
 
 .boxb{
     display: flex;
     flex-direction: column;
     width: 25em;
-    height: 22em;
+    height: 25em;
     border: 1px solid #939393;
     border-radius: 12px;
     padding: 3em;
+    align-items: center;
+    justify-content: center;
     /* gap: 1em; */
     
 }
@@ -266,40 +276,38 @@ button{
 }
 
 .box-cont {
-    /* overflow-y: hidden; */
     display: flex;
-    width: 294px;
-    height: 10em;
-    justify-content: space-between;
-    
+    gap: 1em;
 }
 .box-head {
     width: 203px;
     height: 100px;
     line-height: 37.82px;
-    font-size: 32px;
+    font-size: 30px;
     font-style: italic;
     font-weight: 400;
-
 }
 
 .box-text {
-    height: 128px;
-    width: 294px;
+   
+    /* height: 128px; */
+    /* width: 294px; */
     line-height: 32px;
     font-size: 18px;
-    font-weight: 400;
+    /* font-weight: 400; */
     color: #939393;
-    ;
+    
 }
 
 .footer{
+     
     margin-left: 100px;
     display: flex;
     width: 1450px;
     height: 500px;
     padding: 114px 64px 120px 64px;
     gap: 161px;
+    
 }
 
 .All_ipu {

@@ -18,7 +18,7 @@ const Bottom = ()=>{
           <div className="boxb">
               <div className="box-cont">
                   <img className="box_img" src={Component1} alt=""/>
-                  <h2 className="box-head font-size: 40px; margin-top: 6px;" >collaboration</h2>
+                  <h2 className="box-head font-size: 40px" >collaboration</h2>
               </div>
               <div className="box-text">
                   <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate
